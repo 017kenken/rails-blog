@@ -1,0 +1,2 @@
+<p><%=comment.content%></p>
+<p><%=link_to "削除", "#{comment.post_id}/comments/#{comment.id}", method: :delete, date:{confirm: '削除しますか？'}%></p>
